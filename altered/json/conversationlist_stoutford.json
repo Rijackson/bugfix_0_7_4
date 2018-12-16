@@ -1,0 +1,33 @@
+[
+    {
+        "id":"kayla_1",
+        "message":"Hello.",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"kayla_2"
+            },
+            {
+                "text":"Have you seen my brother Andor?",
+                "nextPhraseID":"kayla_3"
+            },
+            {
+                "text":"Are you a friend of Halvor?",
+                "nextPhraseID":"kayla_halvor_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"halvor_surprise",
+                        "value":180
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"halvor_surprise",
+                        "value":190,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
