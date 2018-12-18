@@ -31,5 +31,22 @@
                 "mapName":"stoutford_sw"
             }
         ]
+    },
+    {
+        "id":"yolgen_surroundings_1",
+        "message":"Flagstone Prison was built four hundred years ago by house Gorland of Stoutford, and was used until the Noble Wars, when the house was vanquished by its enemies. They mostly used it to detain people that were worshipping the \"old gods\".",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_surroundings_1a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":190
+            }
+        ]
     }
 ]
