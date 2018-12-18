@@ -1,0 +1,35 @@
+[
+    {
+        "id":"stoutford_widow_thorns10_2",
+        "message":"That is why you must get the potions of the brave from Blornvale. Oh how I hate that name! Be quick.",
+        "replies":[
+            {
+                "text":"I will be right back.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"By chance, I have three potions of the brave with me. Here, take them.",
+                "nextPhraseID":"stoutford_widow_thorns20_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"potion_brave",
+                        "value":3
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":20
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"blornvale_wolf",
+                "mapName":"stoutford_sw"
+            }
+        ]
+    }
+]
