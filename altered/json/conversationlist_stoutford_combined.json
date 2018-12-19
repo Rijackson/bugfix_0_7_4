@@ -48,5 +48,26 @@
                 "value":190
             }
         ]
+    },
+    {
+        "id":"stn_colonel_131_4a",
+        "message":"[Ring taken]\nThank you, stupid kid.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"stn_colonel_131_10a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_colonel",
+                "value":131
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stn_colonel_mons3"
+            }
+        ]
     }
 ]
