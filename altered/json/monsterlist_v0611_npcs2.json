@@ -1,0 +1,34 @@
+[
+    {
+        "id":"maonit_cr",
+        "name":"Strong maonit brute",
+        "iconID":"monsters_rltiles1:107",
+        "maxHP":620,
+        "maxAP":5,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"giant",
+        "attackDamage":{
+            "min":1,
+            "max":20
+        },
+        "spawnGroup":"maonit_cr",
+        "droplistID":"oegyth1",
+        "attackCost":4,
+        "attackChance":65,
+        "criticalSkill":30,
+        "criticalMultiplier":3.0,
+        "blockChance":20,
+        "damageResistance":6,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
+    }
+]

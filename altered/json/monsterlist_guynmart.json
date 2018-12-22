@@ -1,0 +1,17 @@
+[
+    {
+        "id":"guynmart_dog_puppy",
+        "name":"Cute dog puppy",
+        "iconID":"monsters_dogs:0",
+        "maxHP":6,
+        "unique":1,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":2,
+            "max":2
+        },
+        "droplistID":"canine",
+        "attackCost":9,
+        "attackChance":90
+    }
+]
