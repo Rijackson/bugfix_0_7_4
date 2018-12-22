@@ -1,0 +1,179 @@
+[
+    {
+        "id":"guynmart",
+        "name":"Roses",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"On a farm I heard of Guynmart Castle nearby. The farmer Rhodita is worried about young Lady Hannah of Guynmart, who used to visit often but has not been seen for a week now. Rhodita asked me to check on her."
+            },
+            {
+                "progress":16,
+                "logText":"I got to the castle, but the main gate was shut.",
+                "rewardExperience":12
+            },
+            {
+                "progress":18,
+                "logText":"I got to the castle, but the main gate was shut.",
+                "rewardExperience":15
+            },
+            {
+                "progress":20,
+                "logText":"I found the way into the castle garden."
+            },
+            {
+                "progress":30,
+                "logText":"The guard at the back door is corrupt. He agreed to let me through for some gold."
+            },
+            {
+                "progress":32,
+                "logText":"He told me who is living at the castle: Guynmart himself, and his children Hannah and Robalyrius."
+            },
+            {
+                "progress":40,
+                "logText":"In the main hall I met Unkorh the steward. He expected Guynmart to return the following morning. He says I should go to the kitchen for some bread and then leave."
+            },
+            {
+                "progress":45,
+                "logText":"I met Lady Hannah's little brother, Rob."
+            },
+            {
+                "progress":50,
+                "logText":"The maid told me that Hannah is missing her betrothed. I should talk to Hannah; she is on the tower top. To get to her, I should offer the cook to take Hannah her lunch."
+            },
+            {
+                "progress":60,
+                "logText":"I overheard Unkorh the steward talking to himself. He plans for Guynmart to die in the castle dungeon, and after ursuping the throne he would marry Lady Hannah."
+            },
+            {
+                "progress":62,
+                "logText":"I suggested to Hofala the cook that I could take some lunch to Lady Hannah. He had no more of his special herb selection for the lunch and asked me to get some fresh herbs from Nuik in the garden."
+            },
+            {
+                "progress":63,
+                "logText":"Nuik gave some herbs to me."
+            },
+            {
+                "progress":64,
+                "logText":"I should take lunch to Lady Hannah on the tower top."
+            },
+            {
+                "progress":70,
+                "logText":"Hannah is filled with grief, she cannot think clearly without the smell of a rose. Before she can tell me her whole story, she needs a fresh, fragrant rose."
+            },
+            {
+                "progress":80,
+                "logText":"Unkorh saw me talking to Hannah. He was very jealous and asked guard Olav to show me the special guest exit."
+            },
+            {
+                "progress":81,
+                "logText":"I met Norgothla, the chief of Guynmart's personal guard. He was troubled about my news from the castle, and asked me to get evidence for it."
+            },
+            {
+                "progress":82,
+                "logText":"I got the rose from the guard at the garden door at last."
+            },
+            {
+                "progress":90,
+                "logText":"I gave the rose to Hannah. She told me that Lovis has vanished. In the deepenst depths of her darkest dreams she hears Lovis' voice calling out."
+            },
+            {
+                "progress":100,
+                "logText":"Hannah gave Lovis' flute to me, so that I might prove that I was sent by Hannah."
+            },
+            {
+                "progress":110,
+                "logText":"I met Rob in a room above the watch chamber. Rob promised to distract the guards so that I could pass by."
+            },
+            {
+                "progress":120,
+                "logText":"120 obsolete - The guards were distracted and would not see anybody climbing downstairs."
+            },
+            {
+                "progress":130,
+                "logText":"130 obsolete - I jumped into the dark dungeon below the tower."
+            },
+            {
+                "progress":132,
+                "logText":"I jumped into the dark dungeon below the tower where I found Lovis. He was overjoyed to get back his flute."
+            },
+            {
+                "progress":134,
+                "logText":"The dungeon door flew open. The torturer entered and demanded that we stop the noise."
+            },
+            {
+                "progress":136,
+                "logText":"After the torturer's death the door was open."
+            },
+            {
+                "progress":140,
+                "logText":"Lovis left and went into the woods to get Guynmart's personal guards."
+            },
+            {
+                "progress":160,
+                "logText":"Guynmart was laying half dead in a cell. He asked me to open the castle gate so that his personal guard may come in. After that I should run and hide, because there would be a dangerous battle. I should not return before the following morning."
+            },
+            {
+                "progress":161,
+                "logText":"Unkorh appeared and explained many things. Then Unkorh saw that Guynmart tried to kill me from behind, but stumbled and fell onto his own knife. I should still open the gate, and then go to the farm in the south until the morning."
+            },
+            {
+                "progress":162,
+                "logText":"Unkorh appeared and killed Guynmart. Then he fled like a coward."
+            },
+            {
+                "progress":163,
+                "logText":"The guards let me through to the wall."
+            },
+            {
+                "progress":164,
+                "logText":"I got the main gate open."
+            },
+            {
+                "progress":170,
+                "logText":"I went to Rhodita the farmer and stayed there for the night."
+            },
+            {
+                "progress":180,
+                "logText":"When I got to the castle on the next day, I saw Hannah and Lovis in the throne room. The castle was decorated for a wedding and there had been a merry feast."
+            },
+            {
+                "progress":181,
+                "logText":"When I got to the castle on the next day, I saw Unkorh the steward in the throne room. The castle was decorated for a wedding and there had been a merry feast."
+            },
+            {
+                "progress":190,
+                "logText":"Hannah gave me an everlasting fragrant rose as a present."
+            },
+            {
+                "progress":200,
+                "logText":"I was allowed to choose something from the treasury.",
+                "rewardExperience":5000
+            },
+            {
+                "progress":201,
+                "logText":"I took the money."
+            },
+            {
+                "progress":202,
+                "logText":"I took the scroll of wisdom.",
+                "rewardExperience":5000
+            },
+            {
+                "progress":203,
+                "logText":"I took the shield."
+            },
+            {
+                "progress":210,
+                "logText":"Lovis prepared a surprise for me west of the castle.",
+                "finishesQuest":1
+            },
+            {
+                "progress":211,
+                "logText":"Then I took my leave of Unkorh.",
+                "finishesQuest":1
+            }
+        ]
+    }
+]
