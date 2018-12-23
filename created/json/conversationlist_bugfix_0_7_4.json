@@ -1,0 +1,82 @@
+[
+    {
+        "id":"mountainlake0_sign",
+        "message":"You can see no way to descend the cliffs from here."
+    },
+    {
+        "id":"lookout_0",
+        "message":"Standing on the top of the mountain, you have a great view in all directions.",
+        "replies":[
+            {
+                "text":"Look north",
+                "nextPhraseID":"lookout_north"
+            },
+            {
+                "text":"Look east",
+                "nextPhraseID":"lookout_east"
+            },
+            {
+                "text":"Look south",
+                "nextPhraseID":"lookout_south"
+            },
+            {
+                "text":"Look west",
+                "nextPhraseID":"lookout_west"
+            }
+        ]
+    },
+    {
+        "id":"lookout_north",
+        "message":"You see a town across the lake, but you can see no way to cross the water to get there.",
+        "replies":[
+            {
+                "text":"Look in another direction.",
+                "nextPhraseID":"lookout_0"
+            }
+        ]
+    },
+    {
+        "id":"lookout_east",
+        "message":"You see the shore of a large lake. It looks like it might be possble to walk around the lake in that direction, although it is difficult to make out the details on the far side.",
+        "replies":[
+            {
+                "text":"Look in another direction.",
+                "nextPhraseID":"lookout_0"
+            }
+        ]
+    },
+    {
+        "id":"lookout_south",
+        "message":"You see the land descending to the river, far below. You can't believe you climbed all the way up from there!",
+        "replies":[
+            {
+                "text":"Look in another direction.",
+                "nextPhraseID":"lookout_0"
+            }
+        ]
+    },
+    {
+        "id":"lookout_west",
+        "message":"You see more cliffs, but the view beyond that is hidden in mist. ",
+        "replies":[
+            {
+                "text":"Look in another direction.",
+                "nextPhraseID":"lookout_0"
+            },
+            {
+                "text":"Keep looking west.",
+                "nextPhraseID":"lookout_west_2"
+            }
+        ]
+    },
+    {
+        "id":"lookout_west_2",
+        "message":"The mist briefly clears, and you can make out a town in the distance.",
+        "replies":[
+            {
+                "text":"Look in another direction.",
+                "nextPhraseID":"lookout_0"
+            }
+        ]
+    }
+]
