@@ -1,0 +1,11 @@
+[
+    {
+        "id":"opal",
+        "items":[
+            {
+                "itemID":"gem7",
+                "chance":"100"
+            }
+        ]
+    }
+]
