@@ -1,0 +1,17 @@
+[
+    {
+        "id":"check_erwyn_4",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"erwyn",
+                "mapName":"stoutford_castle0"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":48
+            }
+        ]
+    }
+]

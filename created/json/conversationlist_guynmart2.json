@@ -1,0 +1,12 @@
+[
+    {
+        "id":"guynmart_rmv_bridgeguard",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_bridgeguard",
+                "mapName":"fields5"
+            }
+        ]
+    }
+]
