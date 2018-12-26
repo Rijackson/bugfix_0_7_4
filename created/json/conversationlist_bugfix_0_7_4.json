@@ -8,7 +8,7 @@
         "message":"Standing on the top of the mountain, you have a great view in all directions.",
         "replies":[
             {
-                "text":"Look north",
+                "text":"Look north.",
                 "nextPhraseID":"lookout_north"
             },
             {
@@ -16,27 +16,27 @@
                 "nextPhraseID":"lookout_northeast"
             },
             {
-                "text":"Look east",
+                "text":"Look east.",
                 "nextPhraseID":"lookout_east"
             },
             {
-                "text":"Look southeast",
+                "text":"Look southeast.",
                 "nextPhraseID":"lookout_southeast"
             },
             {
-                "text":"Look south",
+                "text":"Look south.",
                 "nextPhraseID":"lookout_south"
             },
             {
-                "text":"Look southwest",
+                "text":"Look southwest.",
                 "nextPhraseID":"lookout_southwest"
             },
             {
-                "text":"Look west",
+                "text":"Look west.",
                 "nextPhraseID":"lookout_west"
             },
             {
-                "text":"Look northwest",
+                "text":"Look northwest.",
                 "nextPhraseID":"lookout_northwest"
             },
             {
@@ -44,7 +44,7 @@
                 "nextPhraseID":"lookout_up"
             },
             {
-                "text":"Look down",
+                "text":"Look down.",
                 "nextPhraseID":"lookout_down"
             }
         ]
