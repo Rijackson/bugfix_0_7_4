@@ -43,11 +43,11 @@
                         "requireID":"erwyn2",
                         "value":1
                     },
-					{
+                    {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":48
-					}
+                    }
                 ]
             },
             {
@@ -83,17 +83,17 @@
                         "requireID":"erwyn",
                         "value":1
                     },
-					{
+                    {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":48
-					},
-					{
+                    },
+                    {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":49,
-						"negate":true
-					}
+                        "negate":true
+                    }
                 ]
             },
             {
@@ -104,12 +104,12 @@
                         "requireID":"erwyn_coin",
                         "value":2
                     },
-					{
+                    {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":49,
-						"negate":true
-					}
+                        "negate":true
+                    }
                 ]
             },
             {
@@ -119,13 +119,13 @@
                         "requireType":"inventoryKeep",
                         "requireID":"erwyn_coin",
                         "value":2,
-						"negate":true
-
+                        "negate":true
                     },
-					{
+                    {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
-                        "value":49					}
+                        "value":49
+                    }
                 ]
             },
             {
@@ -135,27 +135,26 @@
                         "requireType":"inventoryKeep",
                         "requireID":"erwyn_coin",
                         "value":1,
-						"negate":true
-
+                        "negate":true
                     },
                     {
                         "requireType":"killedMonster",
                         "requireID":"erwyn2",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
-					{
+                    {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":48,
-						"negate":true
-					},
-					{
+                        "negate":true
+                    },
+                    {
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":49,
-						"negate":true
-					}
+                        "negate":true
+                    }
                 ]
             }
         ]
@@ -197,5 +196,9 @@
                 "rewardID":"stn_colonel_mons3"
             }
         ]
+    },
+    {
+        "id":"stoutford_guard4",
+        "message":"Hey, kid, get out of here immediately!"
     }
 ]
