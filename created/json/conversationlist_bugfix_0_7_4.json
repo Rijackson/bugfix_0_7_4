@@ -8,42 +8,6 @@
         "message":"Standing on the top of the mountain, you have a great view in all directions.",
         "replies":[
             {
-                "text":"Look north.",
-                "nextPhraseID":"lookout_north"
-            },
-            {
-                "text":"Look northeast.",
-                "nextPhraseID":"lookout_northeast"
-            },
-            {
-                "text":"Look east.",
-                "nextPhraseID":"lookout_east"
-            },
-            {
-                "text":"Look southeast.",
-                "nextPhraseID":"lookout_southeast"
-            },
-            {
-                "text":"Look south.",
-                "nextPhraseID":"lookout_south"
-            },
-            {
-                "text":"Look southwest.",
-                "nextPhraseID":"lookout_southwest"
-            },
-            {
-                "text":"Look west.",
-                "nextPhraseID":"lookout_west"
-            },
-            {
-                "text":"Look northwest.",
-                "nextPhraseID":"lookout_northwest"
-            },
-            {
-                "text":"Look up.",
-                "nextPhraseID":"lookout_up"
-            },
-            {
                 "text":"Look down.",
                 "nextPhraseID":"lookout_down"
             }
@@ -56,41 +20,21 @@
             {
                 "text":"Look closer at the town.",
                 "nextPhraseID":"lookout_north_2"
-            },
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
             }
         ]
     },
     {
         "id":"lookout_east",
-        "message":"You see the southern shore of a large lake. It looks like it might be possble to walk around the lake in that direction, but there are a number of large, dangerous looking creatures moving around.",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"You see the southern shore of a large lake. It looks like it might be possble to walk around the lake in that direction, but there are a number of large, dangerous looking creatures moving around."
     },
     {
         "id":"lookout_south",
-        "message":"The mountain drops away below you. There is not much to see in this direction.",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"The mountain drops away below you. There is not much to see in this direction."
     },
     {
         "id":"lookout_west",
         "message":"You see more cliffs, but the view beyond that is hidden in mist. ",
         "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            },
             {
                 "text":"Keep looking west.",
                 "nextPhraseID":"lookout_west_2"
@@ -99,44 +43,12 @@
     },
     {
         "id":"lookout_west_2",
-        "message":"The mist briefly clears, and you can make out a town in the distance.",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
-    },
-    {
-        "id":"lookout_up",
-        "message":"You see the sky, with a few, high, drifting clouds.",
-        "replies":[
-            {
-                "text":"Continue to look up.",
-                "nextPhraseID":"lookout_up_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":200,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"The mist briefly clears, and you can make out a town in the distance."
     },
     {
         "id":"lookout_up_1",
         "message":"You see a bird, perhaps a hawk, high in the sky.",
         "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            },
             {
                 "text":"Watch the bird.",
                 "nextPhraseID":"lookout_up_2"
@@ -152,12 +64,8 @@
     },
     {
         "id":"lookout_up_2",
-        "message":"Suddenly, the bird folds it's wings and dives. You realize that it is not a hawk, but a falcon.",
+        "message":"Suddenly, the bird folds its wings and dives. You realize that it is not a hawk, but a falcon.",
         "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            },
             {
                 "text":"Watch the falcon.",
                 "nextPhraseID":"lookout_up_3"
@@ -169,10 +77,6 @@
         "message":"The falcon hurtles towards the mountain. It is going so fast it seems that surely it must crash into the rocks. ",
         "replies":[
             {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            },
-            {
                 "text":"Continue watching the falcon.",
                 "nextPhraseID":"lookout_up_4"
             }
@@ -183,10 +87,6 @@
         "message":"At what seems like the last possible moment, the falcon flares its wings and lands hard on whatever unfortunate creature it spied from high above.",
         "replies":[
             {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            },
-            {
                 "text":"Continue watching the falcon.",
                 "nextPhraseID":"lookout_up_5"
             }
@@ -194,53 +94,37 @@
     },
     {
         "id":"lookout_up_5",
-        "message":"The falcon soars back into the sky. It has something in its talons, but you can't make out what it is. What an amazing thing to witness!",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"The falcon soars back into the sky. It has something in its talons, but you can't make out what it is. What an amazing thing to witness!"
     },
     {
         "id":"lookout_north_2",
-        "message":"You see a few houses, and what appears to be an inn, or tavern.",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"You see a few houses, and what appears to be an inn, or tavern."
     },
     {
         "id":"lookout_northeast",
-        "message":"You see a large lake. It is difficult to make out any details on the distant shore, but there are trees and cliffs.",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"You see a large lake. It is difficult to make out any details on the distant shore, but there are trees and cliffs."
     },
     {
         "id":"lookout_southeast",
         "message":"The view is blocked by mountains. You can see some creatures moving on the slopes.",
         "replies":[
             {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
+                "text":"N",
+                "nextPhraseID":"lookout_souteast_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":200,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"lookout_southwest",
-        "message":"You see the river, far below. You can't believe you climbed all the way up from there!",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"You see the river, far below. You can't believe you climbed all the way up from there!"
     },
     {
         "id":"lookout_northwest",
@@ -249,10 +133,6 @@
             {
                 "text":"Watch the people.",
                 "nextPhraseID":"lookout_northwest_1"
-            },
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
             }
         ]
     },
@@ -282,32 +162,16 @@
                         "value":10
                     }
                 ]
-            },
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
             }
         ]
     },
     {
         "id":"lookout_northwest_2",
-        "message":"The two women eventually separate and walk away from each other. You wonder what the argument was about.",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"The two women eventually separate and walk away from each other. You wonder what the argument was about."
     },
     {
         "id":"lookout_northwest_3",
-        "message":"The two women eventually separate and walk away from each other. You can't make out their faces from here, but you know who they probably are.",
-        "replies":[
-            {
-                "text":"Look in another direction.",
-                "nextPhraseID":"lookout_0"
-            }
-        ]
+        "message":"The two women eventually separate and walk away from each other. You can't make out their faces from here, but you know who they probably are."
     },
     {
         "id":"lookout_down",
@@ -386,5 +250,99 @@
                 "nextPhraseID":"lookout_0"
             }
         ]
+    },
+    {
+        "id":"lookout_north_0",
+        "message":"You look to the north.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_north"
+            }
+        ]
+    },
+    {
+        "id":"lookout_northeast_0",
+        "message":"You look to the northeast.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_northeast"
+            }
+        ]
+    },
+    {
+        "id":"lookout_east_0",
+        "message":"You look to the east.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_east"
+            }
+        ]
+    },
+    {
+        "id":"lookout_southeast_0",
+        "message":"You look to the southeast.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_southeast"
+            }
+        ]
+    },
+    {
+        "id":"lookout_souteast_1",
+        "message":"Suddenly, something in the sky catches your eye.",
+        "replies":[
+            {
+                "text":"Look up at the sky.",
+                "nextPhraseID":"lookout_up_1"
+            }
+        ]
+    },
+    {
+        "id":"lookout_south_0",
+        "message":"You look to the south.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_south"
+            }
+        ]
+    },
+    {
+        "id":"lookout_southwest_0",
+        "message":"You look to the southwest.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_southwest"
+            }
+        ]
+    },
+    {
+        "id":"lookout_west_0",
+        "message":"You look to the west.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_west"
+            }
+        ]
+    },
+    {
+        "id":"lookout_northwest_0",
+        "message":"You look to the northwest.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lookout_northwest"
+            }
+        ]
+    },
+    {
+        "id":"lookout_sign",
+        "message":"The sign is old and worn, but you can make out the words \"Lake Laeroth watchtower\"."
     }
 ]

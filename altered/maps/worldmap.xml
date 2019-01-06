@@ -236,8 +236,4 @@
     <namedarea id="stoutford" name="Stoutford" type="settlement"/>
     <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
   </segment>
-  <segment id="lakecave" x="349" y="413">
-    <map id="lakecave0" x="349" y="438"/>
-    <map id="lakecave2" x="380" y="413"/>
-  </segment>
 </worldmap>

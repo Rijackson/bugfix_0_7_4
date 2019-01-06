@@ -154,6 +154,10 @@
             {
                 "progress":210,
                 "logText":"Found opal at lookout"
+            },
+            {
+                "progress":220,
+                "logText":"You will never get this quest stage (used for lookout)"
             }
         ]
     }
